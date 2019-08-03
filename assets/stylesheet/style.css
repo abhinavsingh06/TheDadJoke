@@ -6,9 +6,9 @@ body {
   place-items: center;
   text-align: center;
   font-family: system-ui;
-  font-size: 16px;
-  background: -webkit-gradient(linear, left top, left bottom, );
-  background: linear-gradient(to bottom);
+  font-size: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#30e8bf), to(#ff8235));
+  background: linear-gradient(to bottom, #30e8bf, #ff8235);
 }
 
 #joke {
@@ -20,8 +20,8 @@ blockquote {
 }
 
 .iphone {
-  width: 310px;
-  height: 450px;
+  width: 410px;
+  height: 750px;
   border: 1px solid black;
   border-radius: 20px;
   background: #34393d;
@@ -41,9 +41,9 @@ blockquote {
 }
 
 .screen {
-  background: red;
-  width: 280px;
-  height: 380px;
+  background: whitesmoke;
+  width: 380px;
+  height: 680px;
   border: 1px solid black;
   border-radius: 20px;
   overflow-y: auto;
@@ -77,6 +77,7 @@ blockquote {
 }
 
 .img {
-  width: 45%;
+  width: 25%;
+  height: 10px;
 }
 /*# sourceMappingURL=style.css.map */

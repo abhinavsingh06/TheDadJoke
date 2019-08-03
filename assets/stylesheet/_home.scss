@@ -5,8 +5,8 @@ body {
   place-items: center;
   text-align: center;
   font-family: system-ui;
-  font-size: 16px;
-  background: linear-gradient(to bottom);
+  font-size: 30px;
+  background: linear-gradient(to bottom, #30e8bf, #ff8235);
 }
 #joke {
   padding: 1rem;
@@ -15,8 +15,8 @@ blockquote {
   font-size: 150%;
 }
 .iphone {
-  width: 310px;
-  height: 450px;
+  width: 410px;
+  height: 750px;
   border: 1px solid black;
   border-radius: 20px;
   background: #34393d;
@@ -28,9 +28,9 @@ blockquote {
   justify-content: center;
 }
 .screen {
-  background: red;
-  width: 280px;
-  height: 380px;
+  background: whitesmoke;
+  width: 380px;
+  height: 680px;
   border: 1px solid black;
   border-radius: 20px;
   overflow-y: auto;
@@ -62,5 +62,6 @@ blockquote {
 }
 
 .img {
-  width: 45%;
+  width: 25%;
+  height: 10px;
 }
